@@ -72,7 +72,7 @@ py app.py runserver
 ### Xây dựng Nội dung Dashboard
 
 7. **Cập nhật Context cho Dashboard**:
-   - Trong file `views.py` của ứng dụng `project_core`, thêm một hàm mới `dashboard_callback` để cung cấp context cho trang dashboard.
+   - Trong file `provider.py` của ứng dụng `project_core`, thêm một hàm mới `dashboard_callback` để cung cấp context cho trang dashboard.
    - Sao chép và dán nội dung hàm `dashboard_callback` từ nguồn tài liệu.
 
 8. **Cập nhật Thiết lập Unfold**:
